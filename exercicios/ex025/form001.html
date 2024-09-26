@@ -7,14 +7,17 @@
 </head>
 <body>
     <h1>Meu Primeiro Formulário</h1>
-    <form action="cadastro.php" method="post" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome">
         </p>
         <p><label for="isobrenome">Sobrenome:</label> 
             <input type="text" name="sobrenome" id="isobrenome">
         </p>
-        <p><input type="submit" value="Cadastrar"></p>
+        <p>
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>
