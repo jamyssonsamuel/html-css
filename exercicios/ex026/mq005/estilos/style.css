@@ -47,6 +47,7 @@ menu a{
 
 menu a:hover{
     background-color: grey;
+    text-decoration: underline;
 }
 
 main{
